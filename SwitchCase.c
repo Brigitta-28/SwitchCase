@@ -2,7 +2,7 @@
 int main();
 {
 printf("Pick a number from 1 to 5 to know the price of listed food items:\n1.Sandwich\n2.Pasta\n3.Burger\n4.French Fries\n5.Pizza");
-int choice=0
+int choice=0;
 scanf("%d",&choice);
 
 switch(choice)
